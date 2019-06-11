@@ -1,0 +1,30 @@
+body {
+  font-family: 'Roboto' , sans-serif;
+}
+h1 {
+  font-family: 'Open Sans' , sans-serif;
+  color: #00ffd5;
+}
+
+h2 {
+  color: #00ffd5;
+  font-size: 24;
+}
+
+h3 {
+  color: black;
+  font-size: 16;
+
+
+}
+
+.inner-container {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+p{
+  color: black;
+  font-size: 12;
+}
+
