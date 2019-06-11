@@ -1,0 +1,23 @@
+body{
+    height: 100%;
+    width: 100%;
+    background:firebrick
+}
+.blog{
+    width: 500px;
+}
+.main-container {
+    height: 100%;
+    width: 100%;
+    border: 1px solid red;
+}
+.blogs-container {
+    height: 100%;
+    width: 50%;
+    border: 2px solid blue;
+}
+.blog {
+    height:100px;
+    width: 100%;
+    border: 5px dotted pink;
+}
