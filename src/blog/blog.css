@@ -1,7 +1,7 @@
 body{
     height: 100%;
     width: 100%;
-    background:firebrick
+    background:wheat
 }
 .blog{
     width: 500px;
@@ -9,7 +9,7 @@ body{
 .main-container {
     height: 100%;
     width: 100%;
-    border: 1px solid red;
+    border: 1px solid white;
 }
 .blogs-container {
     height: 100%;
@@ -19,5 +19,17 @@ body{
 .blog {
     height:100px;
     width: 100%;
-    border: 5px dotted pink;
+    border: 5px dotted red;
 }
+h1 {
+text-align: center;
+}
+section {
+    background-color: aliceblue;
+margin: 0px 200px;
+
+}
+li {
+    list-style: none
+}
+
