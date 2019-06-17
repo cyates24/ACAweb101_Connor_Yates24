@@ -33,7 +33,7 @@ text-align: center;
 }
 nav .logo i {
   font-size: 60px;
-  margin: 
+  /* margin:  */
 }
 nav ul {
   height: 100%;
@@ -44,7 +44,9 @@ nav ul li {
   display: inline-block;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 576px){
+}
+
   nav {
     height: 500px;
     }
@@ -61,4 +63,3 @@ nav ul li {
     display: block;
   }
 
-}

@@ -1,0 +1,158 @@
+* {
+  margin: 10;
+  padding: 10;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+.text {
+  float: none;
+  position: relative;
+}
+.text2 {
+  float: left;
+  position: relative;
+}
+.img1 {
+  width: 50%;
+}
+.img11 {
+  width: 80%;
+  height: auto;
+  margin: 10px;
+}
+.test {
+  display: none;
+}
+.text3 {
+  display: none;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1200px){
+    
+.img11 {  
+  display: block;
+  position: relative; 
+  width: 60%;
+  margin: 0;
+  padding: 0px;
+}
+.text {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  float: none;
+  margin: 15px;
+}
+.test {
+  display: none;
+ 
+}
+
+.text3 {
+  display: none;
+  
+}
+
+* {
+  margin: 0px;
+  padding: 0;
+}
+
+}
+
+@media (max-width: 992px) {
+  .img11 {  
+    display: block;
+    position: relative; 
+    width: 60%;
+    margin: 15;
+    padding: 10px;
+  }
+  .text {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    float: none;
+    margin: 15px;
+  }
+  .test {
+    display: none
+  }
+  .text3 {
+    display: none
+  }
+
+  }
+  
+  * {
+    margin: 0px;
+    padding: 0;
+  }
+  @media (max-width: 768px) {
+    .img11 {  
+      display: inline-block;
+      position: relative; 
+      width: 60%;
+      margin: 0;
+      padding: 10px;
+    }
+    .text {
+      position: relative;
+      width: 100%;
+      display: inline-block;
+      float: none;
+      margin: 15px;
+    }
+    .test {
+      display: block;
+      position: relative;
+      height: 50%;
+     
+    }
+    
+    * {
+      margin: 5px;
+      padding: 15;
+    }
+    @media (max-width: 596px) {
+     
+      .img11 {  
+        display:block;
+        position: relative; 
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+      }
+      .text {
+        position: relative;
+        width: 100%;
+        display: inline-block;
+        float: none;
+        margin: 15px;
+      }
+           .text3 {
+      display: block;
+      position: relative;
+      height: 50%;
+    }
+
+      .h2 { 
+        float: left;
+
+        }
+
+  }
+}
+  
+  
+
