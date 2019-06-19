@@ -8,7 +8,7 @@ body {
   margin: 5%;
 }
 
-h1, h3 {
+h1 {
   margin: 20px;
 }
 
@@ -57,7 +57,9 @@ h1, h3 {
 
 /* MEDIA QUERY FOR TABLET SIZE */
 @media (max-width: 992px){
-
+ h1{
+   font-size: 24px;
+ }
   .wrapper .text {
     display: none
   }
@@ -65,6 +67,7 @@ h1, h3 {
   .wrapper .main_image {
     width: 100%;
   }
+  
 
 }
 /* MEDIA QUERY FOR MOBILE DEVICE SIZE */
@@ -161,7 +164,6 @@ h1, h3 {
   }
 
 }
-
   
   
 
