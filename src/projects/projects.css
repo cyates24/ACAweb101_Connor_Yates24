@@ -46,7 +46,7 @@ header {
     box-shadow: 1px 2px 3px red;
   }
   .project1 {
-    background: url('https://source.unsplash.com/random')
+    background: url('https://source.unsplash.com/random');
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 65% 35%;
