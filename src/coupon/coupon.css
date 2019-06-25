@@ -23,7 +23,7 @@ body {
   height: 100%;
   width: 100%;
   display: grid;
-  grid-template-columns: 75% 25%;
+  grid-template-columns: 50% 25%;
   grid-template-rows: 15% 1fr 25%;
   padding: 15px 15px 22px;
 }
@@ -47,7 +47,43 @@ body {
   float: left;
 }
 
-.img2
+.img2 {
+  width: 150px;
+  height: 100px;
+  float: left;
+}
+
+.img3 {
+  width: 200px;
+  height: auto;
+  float: left
+}
+
+.img4 {
+  width: 200px;
+  height: auto;
+  float: left
+}
+.img5 {
+  width: 200px;
+  height: auto;
+  float: left
+}
+.img6 {
+  width: auto;
+  height: 150px;
+  float: left
+}
+.img7 {
+  width: 80px;
+  height: auto;
+  float: left
+}
+.img8 {
+  width: auto;
+  height: 80px;
+  float: left
+}
 
 .main-container-body-coupons {
   grid-column: 1/2;
