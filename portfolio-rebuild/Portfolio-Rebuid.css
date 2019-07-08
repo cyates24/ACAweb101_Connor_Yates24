@@ -1,12 +1,15 @@
 
-body{
-  background: lightgrey !important;
-}
 
 .container .collapse navbar-collapse {
   float: right;
+  border-top-color: red;
+  border-top: 3px !important;
 }
 
+.navbar-light {
+  border-top-color: red;
+  border-top: 5px !important;
+}
 
 .navbar-expand-lg .navbar-brand:hover,
 .navbar-expand-lg .navbar-brand:focus {
@@ -19,10 +22,7 @@ body{
   background-image: radial-gradient(red, yellow, green);
  }
 
-.divider{
-  background-color: grey;
-  margin: 3em;
-}
+
 .dropdown-menu{
   background-color: #FFF
 }
@@ -101,8 +101,8 @@ body{
   .tubevid {
     position: relative;
     padding-bottom: 56.25%; 
-      height: 0;
-      overflow: hidden;
+    height: 0;
+    overflow: hidden;
     }
   .tubevid iframe {
       position: absolute;  
@@ -115,12 +115,17 @@ body{
 
 
 .profilepic {
-border-style: dashed;
 align-content: center;
 align-items: center;
 text-align: center;
 width: 100%;
 height: 100%;
+}
+
+.jumbotron{
+  height: 700px;
+  margin-top: 10px solid red;
+  background-color: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%) !important;
 }
 
 
@@ -186,15 +191,17 @@ input {
   outline: 0 none;
   padding: 3px 3px 3px 5px;
 }
+.intro-page {
+
+  padding: 25px 10px;
+ background:  linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+ height: 750px;
+}
 
 @media (max-width: 400px){
   .form {
  width: 100%;
   }
-}
-.intro-page {
-
-  padding: 65px 20px;
 }
 
 
