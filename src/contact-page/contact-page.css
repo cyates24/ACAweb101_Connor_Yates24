@@ -1,0 +1,50 @@
+
+.home-background {
+  min-height: 100vh;
+  padding-top: 150px;
+  text-align: center;
+  background-image:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(248, 0, 0, 0.596));
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.home-message {
+  font-family: Special Elite;
+}
+
+.home-message > h1 {
+  font-size: 5em;
+  color: #FDC;
+}
+
+@media (max-width: 400px) {
+    .home-message > h1 {
+        font-size: 3.5em;
+    }
+}
+
+.home-message > h2 {
+  color: #FDC;
+}
+
+.home-divider {
+  height: 2px;
+  border: none;
+  margin: 3% 10% 0 10%;
+  border-radius: 50%;
+  background-color: #FDC;
+}
+
+.home-social-buttons {
+  padding-top: 3em;
+  font-size: 20px !important;
+}
+
+.home-social-buttons ul.list-inline li a.btn-default {
+  margin-bottom: 5px;
+  font-size: 20px;
+}

@@ -1,0 +1,405 @@
+
+
+.container .collapse navbar-collapse {
+  float: right;
+  border-top-color: red;
+  border-top: 3px !important;
+}
+
+.navbar-light {
+  border-top-color: red;
+  border-top: 5px !important;
+}
+
+.navbar-expand-lg .navbar-brand:hover,
+.navbar-expand-lg .navbar-brand:focus {
+  background-color: red; 
+  background-image: radial-gradient(red, white, blue);
+  animation-name: rubberBand;
+  animation-duration: 1s;
+  animation-timing-function: ease-out; 
+}
+.navbar-expand-lg ul.navbar-nav li a:hover,
+.navbar-expand-lg ul.navbar-nav li a:focus {
+  background-color: red;  
+  background-image: radial-gradient(red, white, blue);
+  animation-name: rubberBand;
+  animation-duration: 1s;
+  animation-timing-function: ease-out; 
+ }
+
+
+.dropdown-menu{
+  background-color: #FFF
+}
+/* .navbar-inverse {
+  font-size: 16px;
+  text-transform: uppercase;
+  box-shadow: 0px 1px rgba(0, 0, 0, 0.3);
+  
+}
+
+.navbar-inverse ul.navbar-nav li a {
+  color: white;
+}
+
+.navbar-inverse ul.navbar-nav li a:hover,
+.navbar-inverse ul.navbar-nav li a:focus {
+  background-color: red; /* For browsers that do not support gradients 
+  background-image: radial-gradient(red, yellow, green);
+ }
+.navbar-expand-lg ul.navbar-nav li a:hover,
+.navbar-expand-lg ul.navbar-nav li a:focus {
+  background-color: red; /* For browsers that do not support gradients 
+  background-image: radial-gradient(red, yellow, green);
+ }
+
+.navbar-inverse .navbar-brand {
+  text-transform: none;
+  color: white;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  background-color: red; /* For browsers that do not support gradients 
+  background-image: radial-gradient(red, yellow, green);
+}
+.navbar-expand-lg .navbar-brand:hover,
+.navbar-expand-lg .navbar-brand:focus {
+  background-color: red; /* For browsers that do not support gradients 
+  background-image: radial-gradient(red, yellow, green);
+}
+
+.navbar-inverse .navbar-toggle {
+    border: none;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: red; /* For browsers that do not support gradients 
+  background-image: radial-gradient(red, yellow, green);
+}*/
+
+ .name{
+  font-size: 16px;
+  text-align-last: justify;
+  color: white ;
+  text-decoration-style: wavy;
+
+}
+
+.vid {
+  position: relative;
+  padding-bottom: 56.25%; 
+    height: 0;
+    overflow: hidden;
+    margin-top: 50px;
+  }
+.vid video {
+    position: absolute;  
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  .tubevid {
+    position: relative;
+    padding-bottom: 56.25%; 
+    height: 0;
+    overflow: hidden;
+    }
+  .tubevid iframe {
+      position: absolute;  
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+
+
+.profilepic {
+align-content: center;
+align-items: center;
+text-align: center;
+width: 100%;
+height: 100%;
+}
+
+
+
+
+.profilepic img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 60px;
+  justify-content: center
+}
+
+
+form {
+margin-left:auto;
+margin-right:auto;
+width: 700px;
+max-width: 100%;
+background: #F7F7F7;
+padding: 25px 15px 25px 10px;
+font: 12px Georgia, "Times New Roman", Times, serif;
+color: #888;
+text-shadow: 1px 1px 1px #FFF;
+border:1px solid #E4E4E4;
+float: left;
+}
+.button {
+  background: green;
+  border: none;
+  padding: 10px 25px 10px 25px;
+  color: #FFF;
+  box-shadow: 1px 1px 5px #B6B6B6;
+  border-radius: 3px;
+  text-shadow: 1px 1px 1px rgb(66, 158, 63);
+  cursor: pointer;
+}
+.button:hover {
+  background: rgb(57, 226, 128)
+}
+.button2{
+  background: red; 
+  border: none;
+  padding: 10px 25px 10px 25px;
+  color: #FFF;
+  box-shadow: 1px 1px 5px #B6B6B6;
+  border-radius: 3px;
+  text-shadow: 1px 1px 1px #9E3F3F;
+  cursor: pointer;
+  width: 97%;
+}
+.button2:hover {
+  background: rgb(230, 73, 80)
+}
+tr{
+  display: inherit;
+}
+input {
+  border: 1px solid #DADADA;
+  color: #888;
+  height: 30px;
+  margin-bottom: 16px;
+  margin-right: 6px;
+  margin-top: 2px;
+  outline: 0 none;
+  padding: 3px 3px 3px 5px;
+}
+.intro-page {
+
+padding: 25px 10px;
+background-color: darkgrey;
+animation: change-background 5s ease;
+ height: 750px;
+}
+
+.intro-page h1{
+  animation-name: jackInTheBox;
+  animation-duration: 5s;
+  animation-timing-function: ease-out; 
+}
+
+@media (max-width: 400px){
+  .form {
+ width: 100%;
+  }
+}
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  80% {
+    transform: translateX(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes change-background {
+  0% {
+    background: black;
+  }
+  50% {
+    background: rgba(211, 211, 211, 0.432);
+  }
+  100% {
+    background: rgba(128, 128, 128, 0.582);
+  }
+}
+@-webkit-keyframes jackInTheBox {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(0.1) rotate(30deg);
+    transform: scale(0.1) rotate(30deg);
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+  }
+
+  50% {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+
+  70% {
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3deg);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes jackInTheBox {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(0.1) rotate(30deg);
+    transform: scale(0.1) rotate(30deg);
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+  }
+
+  50% {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+
+  70% {
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3deg);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.jackInTheBox {
+  -webkit-animation-name: jackInTheBox;
+  animation-name: jackInTheBox;
+}
+
+@-webkit-keyframes rubberBand {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes rubberBand {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.rubberBand {
+  -webkit-animation-name: rubberBand;
+  animation-name: rubberBand;
+}
+@-webkit-keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.fadeOut {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+}
+
+
+
+
+
+
+
