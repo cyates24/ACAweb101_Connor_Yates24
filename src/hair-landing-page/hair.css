@@ -1,5 +1,232 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+
+ body {
+	background: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1;
+	margin: 0;
+	padding: 0;
 }
+ 
+#header {
+	margin: 0 auto;
+	padding: 44px 0 50px;
+	text-align: center;
+	width: 960px;
+}
+#header a.logo {
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	width: 340px;
+}
+#header a.logo img {
+	border: 0;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+ #header ul {
+	margin: 0;
+	padding: 56px 0 0;
+}
+#header ul li {
+	display: inline;
+	list-style: none;
+	margin: 0;
+	padding: 0 19px;
+}
+#header ul li a {
+	color: #252525;
+	display: inline-block;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 0 3px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#header ul li a:hover, #header ul li.selected a {
+	color: #0ba39c;
+}
+ul li {
+  list-style-type: none;
+}
+
+
+#body > div {
+  margin: 0 auto;
+	padding: 0;
+	width: 960px;
+}
+#body img {
+  border: 2px solid #292929;
+	margin: 24px 0 0;
+  padding: 0;
+  width: 100%;
+}
+
+#body div ul {
+  margin: 0;
+	padding: 24px 10px 0;
+	width: 940px;
+}
+#body div ul li {
+  border: 2px solid #1a1a1a;
+	display: block;
+	list-style: none;
+	margin: 0 0 13px;
+	overflow: hidden;
+	padding: 0;
+}
+
+
+#body div ul li div {
+  float: left;
+	margin: 0;
+	padding: 63px 0 20px;
+	width: 558px;
+}
+
+#body > ul {
+  margin: 0 auto;
+	overflow: hidden;
+	padding: 24px 0 0;
+	width: 960px;
+}
+#body > ul li {
+  display: block;
+	float: left;
+	margin: 0 10px 20px;
+	padding: 0;
+	width: 300px;
+} 
+
+
+
+ #body #featured {
+  margin: 0 0 13px;
+	padding: 0;
+	position: relative;
+	width: 100%;
+}
+#body #featured img {
+  border: 0;
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+#body #featured div {
+  left: 50%;
+	margin-left: -480px;
+	margin-top: -171px;
+	padding: 0 0 0 470px;
+	position: absolute;
+	top: 50%;
+	text-align: left;
+	width: 490px;
+}
+
+#body #featured div span {
+  background: #252525;
+	color: #fff;
+	display: inline-block;
+	font-size: 20px;
+	margin: 7px 0;
+	padding: 12px 27px;
+}  
+
+ @media (max-width: 400px){
+  
+  #header {
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+  }
+  .wrapper{
+    width: 100%;
+    display: inline-block;
+  }
+   #header a.logo {
+    width: 80%;
+  }
+  #header a.logo img {
+    width: 100%;
+  }
+  #header ul {
+    border: 1px solid #fff;
+    display: none;
+    left: 50%;
+    margin-left: -45%;
+    padding: 0;
+    position: absolute;
+    width: 90%;
+    z-index: 1001;
+  }
+  #header ul li {
+    border-top: 1px solid #fff;
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  #header > ul > li:first-child {
+    border: 0;
+  }
+  #header ul li a {
+    background: rgba(11, 163, 156, 0.9);
+    color: #fff;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    height: 49px;
+    line-height: 49px;
+    padding: 0 15px;
+    text-align: left;
+  }
+  #header ul ul {
+    display: none;
+    border: 0;
+    height: auto;
+    left: 0;
+    margin: 0;
+    position: relative;
+    width: 100%;
+  }
+  #header ul ul li a {
+    text-indent: 15px;
+  }
+  #body {
+    width: 100%;
+  }
+  #body h1 {
+    display: block;
+    font-size: 20px;
+    margin: 0 auto;
+    width: 90%;
+  }
+  #body h1 span {
+    display: block;
+    padding: 3%;
+    width: 94%;
+  }
+  #body > div {
+    padding: 0 5%;
+    width: 90%;
+  }
+  #body > div img {
+    margin: 24px 0 30px;
+    width: 100%
+  }
+  #body ul{
+    width: 100%;
+  }
+  #body #featured div {
+    display: none;
+  }
+}  
+
