@@ -26,53 +26,7 @@
 .dropdown-menu{
   background-color: #FFF
 }
-/* .navbar-inverse {
-  font-size: 16px;
-  text-transform: uppercase;
-  box-shadow: 0px 1px rgba(0, 0, 0, 0.3);
-  
-}
 
-.navbar-inverse ul.navbar-nav li a {
-  color: white;
-}
-
-.navbar-inverse ul.navbar-nav li a:hover,
-.navbar-inverse ul.navbar-nav li a:focus {
-  background-color: red; /* For browsers that do not support gradients 
-  background-image: radial-gradient(red, yellow, green);
- }
-.navbar-expand-lg ul.navbar-nav li a:hover,
-.navbar-expand-lg ul.navbar-nav li a:focus {
-  background-color: red; /* For browsers that do not support gradients 
-  background-image: radial-gradient(red, yellow, green);
- }
-
-.navbar-inverse .navbar-brand {
-  text-transform: none;
-  color: white;
-}
-
-.navbar-inverse .navbar-brand:hover,
-.navbar-inverse .navbar-brand:focus {
-  background-color: red; /* For browsers that do not support gradients 
-  background-image: radial-gradient(red, yellow, green);
-}
-.navbar-expand-lg .navbar-brand:hover,
-.navbar-expand-lg .navbar-brand:focus {
-  background-color: red; /* For browsers that do not support gradients 
-  background-image: radial-gradient(red, yellow, green);
-}
-
-.navbar-inverse .navbar-toggle {
-    border: none;
-}
-
-.navbar-inverse .navbar-toggle:hover,
-.navbar-inverse .navbar-toggle:focus {
-  background-color: red; /* For browsers that do not support gradients 
-  background-image: radial-gradient(red, yellow, green);
-}*/
 
  .name{
   font-size: 16px;
