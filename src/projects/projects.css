@@ -7,10 +7,10 @@
   border: 1px solid red;
 }
 .border2 {
-  border: 1px solid blue;
+  border: 1px solid #050000;
 }
 .border3 {
-  border: 1px solid purple;
+  border: 1px solid rgb(0, 0, 0);
 }
 
 body {
@@ -46,10 +46,7 @@ header {
     box-shadow: 1px 2px 3px red;
   }
   .project1 {
-    background: url('https://source.unsplash.com/random');
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 65% 35%;
+   
 
   }
   .project-header {
@@ -59,9 +56,9 @@ header {
     flex-direction: row;
     justify-content: space-between; */
   }
-  .techstack {
+  /* .techstack {
     grid-row: 2;
     grid-column: 2;
     display: flex;
     justify-content: center
-  }
+  } */
