@@ -47,12 +47,12 @@ h1{
   height: 30px;
   background: red;
   margin: 0 auto;
-  text-align: center;
 }
 .col-sm-4{
   text-align: center;
   padding: 0 100px !important;
   margin-top: 50px;
+  height: 50%;
 }
 .col-sm-4 h3{
   padding:  10px !important;
