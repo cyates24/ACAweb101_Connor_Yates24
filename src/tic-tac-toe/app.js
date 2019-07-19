@@ -30,7 +30,7 @@
           b1.classList.add("win");
           b2.classList.add("win");
           b3.classList.add("win");
-          turn.innerHTML = b1.innerHTML + "Wins! Congratulations!" 
+          turn.innerHTML = b1.innerHTML + ": Wins! Congratulations!" 
         }
 
     function getWinner (){
