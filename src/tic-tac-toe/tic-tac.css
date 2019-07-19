@@ -3,7 +3,12 @@
 }
 .container{
   width: 300px;
-  margin: 50px auto 0 auto;
+  margin: 180px auto 0 auto;
+  float: none;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
 }
 .container .box{
   float: left;
@@ -38,6 +43,8 @@ button{
   font-size: 22px;
   display: block;
   margin: 10px auto;
+
+  
 }
 .win{
   background: red;
