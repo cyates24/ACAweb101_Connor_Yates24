@@ -24,10 +24,21 @@
   width: 100%;
   display: block;
   text-align: center;
-  font-family: 'Hanalei', cursive;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 25px;
 }
-
+button{
+  background: red; 
+  color: black;
+  font-weight: bold;
+  border: 1px solid yellow;
+  cursor: pointer;
+  width: 200px;
+  height: 40px;
+  font-size: 22px;
+  display: block;
+  margin: 10px auto;
+}
 .win{
   background: red;
 }

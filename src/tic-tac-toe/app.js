@@ -27,9 +27,10 @@
         boxes = document.querySelectorAll("#main div"), X_or_O = 0;
 
         function selectWinnerBoxes(b1,b2,b3){
-          b1.style.background = "red";
-          b2.style.background = "red";
-          b3.style.background = "red";
+          b1.classList.add("win");
+          b2.classList.add("win");
+          b3.classList.add("win");
+          turn.innerHTML = b1.innerHTML + "Wins! Congratulations!" 
         }
 
     function getWinner (){
@@ -87,4 +88,14 @@ for(var i = 0; i < boxes.length; i++){
     }
   };
 } 
+}
+
+function replay(){
+
+  for(var i = 0; i < boxes.length; i++){
+    boxes[i].classList.remove("win");
+    boxes[i].innerHTML = "";
+    turn.innerHTML = "Play";
+    turn.style.fontSize = "25px"
+  }
 }
