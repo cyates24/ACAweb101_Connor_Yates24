@@ -1,14 +1,345 @@
 
-.header-top{
+body{
+  margin:0;
+  padding:0;
+ }
+
+.wrapper nav{
+ display:flex;
+ justify-content:center;
+ background-image: linear-gradient(#4600002c, red 220%, black 45%);
+ padding: 1px;
+}
+  
+nav a{
+   padding: 15px 30px;
+   text-decoration:none;
+   color:#022140;
+   text-align:center;
+   transition:.6s ease;
+   font-size:16px;
+}
+
+nav a:hover{
+  color:red;
+  font-size: 20px;
+}
+
+
+.wrapper span{
+position:absolute;
+top:10px;
+}
+
+.wrapper span .fa{
+  font-size:30px;
+  color:#022140;
+}
+
+.wrapper span .fa:hover{
+  color:#ff0000d0;
+  transition: .6s;
+  font-size: 40px;
+}
+
+.welcome-image {
+  background-image: url(../images/fireworks2.jpg);
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.heading-primary {
+  color: #fff;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  margin-bottom: 60px;
+}
+
+.heading-primary-main {
+  display: block;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 35px;
+  animation-name: moveInLeft;
+  animation-duration: 1.6s;
+  animation-timing-function: ease-out;
+}
+.heading-primary-sub {
+  display: block;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 17.4px;
+  animation-delay: 2s;
+  animation: moveInRight ;
+  animation-duration: 1.6s;
+}
+
+
+.boxes{
+  display:flex;
+  width:100%;
+  justify-content: center;
+  background-image: 
+  linear-gradient(hsla(0, 0%, 0%, 0.966), #262626);
+  height:300px;
+  margin-bottom: -5px;
+  text-align: center;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.94),
+               0px 8px 13px rgba(0, 0, 0, 0.838),
+               0px 18px 23px rgba(0, 0, 0, 0.536)
+}
+  .background{
+  background-image: 
+  linear-gradient(#262626, hsla(0, 0%, 15%, 0.488));
+}
+
+
+.content{
+  color:#fff;
+  padding:10px;
+}
+.content img{
+  width: 351px;
+  height: 401px;
+}
+.box1 img{
+  width: 301px;
+  justify-content: center;
+  align-items: center;
+}
+.content h1{
+  text-transform:uppercase;
+  font-size:40px;
+  letter-spacing:16px;
+}
+.content h4{
+  padding:14px
+}
+.content hr{
+  width:200px;
+}
+.content .click{
+  text-decoration:none;
+  padding:10px 40px;
+  border:1px solid#fff;
+  color:#fff;
+  margin:10px;
+}
+.content .click:hover{
+  background-color:#fff;
+  color:#022140;
+  transition: .6s ease;
+}
+.icon{
+  position:absolute;
+  color:#fff;
+}
+.icon  ul{
+  list-style-type:none;
+  float:right;
+}
+.icon .fa{
+  font-size:20px;
+  padding:10px;
+  cursor:pointer;
+  color: #fff;
+}
+.myphotos{
   width: 100%;
-  height: 370px;
-  background: teal;
+  justify-content: center;
+  text-align: center;
+}
+
+.img img{
+  width: 308px;
+  height: 355px;
+  }
+
+  #about{
+    margin-top: -25px;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.94),
+               0px 8px 13px rgba(0, 0, 0, 0.838),
+               0px 18px 23px rgba(0, 0, 0, 0.536);
+  }
+
+.arrive{
+  /* margin-top: -20px; */
+  padding:20px;
+  display:flex;
+  justify-content:center;
+  height:100px;
+ }
+.arrive h2{
+  font-size:70px;
+}
+.container{
+  position:relative;
+  width:100%;
+  display:flex;
+  padding:10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-image:
+  linear-gradient(hsla(0, 0%, 15%, 0.488), hsla(0, 0%, 29%, 0.297));
+}
+.container .box{
+  padding:10px;
+  flex:1;
+}
+.container .box .showmore{
+  text-decoration:none;
+  text-decoration:center;
+  margin-left:130px;
+  padding:10px 30px;
+  border:1px solid#022140;
+  color:#fff;
+  background-color:#022140;
+}
+.container .box .showmore:hover{
+  background-color:orange;
+}
+.container .content p{
+  color:orange
+}
+.container .content h6{
+  color:#000;
+  font-size:16px;
+}
+.box:hover{
+  background-color:#fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.prefooter{
+  display:flex;
+  width:100%;
+  justify-content:center;
+  padding:30px;
+}
+button{
+  background-color:#C70039;
+  width:40px;
+  height:40px;
+  color:#fff;
+}
+input{
+  padding:10px;
+  border:2px solid#C70039;
+}
+.footer{
+  display:flex;
+  padding:20px;
+  background-color:#222;
+}
+.footer .item1{
+  flex:1;
+  padding:10px;
+  margin:0;
+  color:#fff;
+}
+#join{
+  width:80px;
+  height:36px
+}
+
+/*               ///Media Queries///               */
+
+@media (max-width:800px){
+  .wrapper nav{
+    flex-direction:column; 
+    width: 100%
+  }
+ 
+  .container{
+    flex-direction:column; 
+    width: 100%;
+  }
+
+    .myphotos{
+    flex-direction:column; 
+    width: 100%;
+  }
+  
+  .boxes{
+    flex-direction:column; 
+    width: 100%;
+  }
+  
+  .footer{
+      flex-direction:column; 
+      width: 100%;
+    }
+  }
+
+  @keyframes moveInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-600px);
+    }
+    80% {
+      transform: translateX(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes moveInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(600px);
+    }
+    80% {
+      transform: translateX(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+
+
+    
+  
+
+
+
+/* .header-top {
+  
+  background: url("./fireworks.jpg") no-repeat fixed bottom;
+  background-size: cover;
+  padding: 1em 1em;
+  text-align: center;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
+  
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  display: block;
   
-
 }
+.welcome{
+  vertical-align: middle;
+  margin-top: 300px;
+}
+
 
 
 
@@ -16,12 +347,28 @@ h1{
   -webkit-animation-name: fadeInDownBig;
   animation-name: fadeInDownBig;
   animation-duration: 1.2s;
-
-  transform: scaleX(1);
-  transition: transform 5s ease;
+  transition: transform 3s ease;
+  color: azure;
+  text-align: center;
+  font-size: 4em;
+  
   }
   h1:hover{
     transform: scaleX(2)
+  }
+  .welcome p{
+    -webkit-animation-name: fadeInDownBig;
+    animation-name: fadeInDownBig;
+    animation-duration: 2.2s;
+    transform: scaleX(1);
+    transition: transform 3s ease;
+    color: azure;
+    text-align: center;
+    font-size: 2em;
+
+  }
+  .welcome p{
+    transform: scaleX();
   }
 
 
@@ -40,51 +387,27 @@ h1{
 .col-sm-4 h3{
   padding:  10px !important;
 }
-
-
-@-webkit-keyframes fadeInDownBig {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -2000px, 0);
-    transform: translate3d(0, -2000px, 0);
-  }
-  
-  to {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
+.gradient {
+  padding: 10em;
+  background-color: #000000;;
+  background-image: linear-gradient(#000000, #262626);
 }
 
-@keyframes fadeInDownBig {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -2000px, 0);
-    transform: translate3d(0, -2000px, 0);
-  }
-  
-  to {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
+
+h2 {
+  font-size: 4em;
 }
 
-/* .rectangle1{
-  width: 170px;
-  height: 30px;
-  background: red;
-  margin: 0 auto;
+
+h3 {
+  font-style: italic;
+  font-size: 2.5em;
 }
-.rectangle2{
-  width: 170px;
-  height: 30px;
-  background: red;
-  margin: 0 auto;
+
+
+section p {
+  font-size: 2em;
+  line-height: 1.3em;
 }
-.rectangle3{
-  width: 170px;
-  height: 30px;
-  background: red;
-  margin: 0 auto;
-} */
+
+
