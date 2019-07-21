@@ -33,10 +33,10 @@ header {
   align-items: center;
 }
   main {
-    height: calc((100% - 15%) - 90px);
+    height: calc((180% - 15%) - 90px);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3,1fr);
+    grid-template-rows: repeat(6,1fr);
     grid-gap: 1em;
   }
   .content {
