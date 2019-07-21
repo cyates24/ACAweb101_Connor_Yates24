@@ -46,9 +46,10 @@ header {
     box-shadow: 1px 2px 3px red;
   }
   .project1 {
-   
+   font-size: 20px;
+   text-align: center;
+}
 
-  }
   .project-header {
     grid-row: 2;
     grid-column: 1/2;
