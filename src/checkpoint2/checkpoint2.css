@@ -47,7 +47,8 @@ left: 5px;
 }
 
 .welcome-image {
-  background-image: url(../images/fireworks2.jpg);
+  
+  background-image: url(./fireworks2.jpg);
   height: 450px;
   background-position: center;
   background-repeat: no-repeat;
