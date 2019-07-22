@@ -138,9 +138,17 @@ ul li {
 	padding: 12px 27px;
 }  
 
- @media (max-width: 400px){
+ @media (max-width: 500px){
+  body{
+
+  }
+ 
+
+}
+
+
   
-  #header {
+  /* #header {
     padding: 20px 0;
     position: relative;
     width: 100%;
@@ -228,4 +236,4 @@ ul li {
     display: none;
   }
 }  
-
+ */

@@ -111,7 +111,7 @@ vertical-align: middle;
   width: 150px;
 }
 
-@-webkit-keyframes move {
+@keyframes move {
   from {left: -150px;}
   to {left: 100%;}
 }
@@ -119,7 +119,7 @@ vertical-align: middle;
 
 
 
-                                  /* BODY */
+ 
 
 
  section {
