@@ -1,0 +1,10 @@
+.towers{
+  height: 300px;
+  width: 50px;
+  background: red;
+  float: left;
+  margin: 60px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
