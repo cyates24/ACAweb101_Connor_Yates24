@@ -1,10 +1,21 @@
-.towers{
-  height: 300px;
-  width: 50px;
-  background: red;
-  float: left;
-  margin: 60px;
-  align-items: center;
+.divClass{
+  height: 100px;
+  width: 100px;
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
   text-align: center;
-  justify-content: center;
 }
+
+
+
+
+
+/* .tower{
+  background: red;
+  margin: 0 20;
+  width: 50px;
+  height: 300px;
+  float: left;
+  text-align: center;
+} */
