@@ -4,33 +4,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="./tower.css">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
   <title>Document</title>
 </head>
 <body>
   <form id="form1" runat="server">
-   <div id = "redDiv" class="divClass" style="background-color: red">
+   <div id = "redDiv" class="drag-box" style="background-color: red">
     </div>
-    <div id = "greenDiv" class="divClass" style="background-color: green">
+    <div id = "greenDiv" class="drag-box" style="background-color: green">
     </div>
-    <div id = "blueDiv" class="divClass" style="background-color: blue">
+    <div id = "blueDiv" class="drag-box" style="background-color: blue">
     </div>
-    <div id = "purpleDiv" class="divClass" style="background-color: purple">
+    <div id = "purpleDiv" class="drag-box" style="background-color: purple">
     </div>
     <br>
     <br>
-    <div id = "snapDiv" style = "height: 300px; width:100px; border: 3px solid black"></div>
+    <div class="container">
+      <div class="row">
+    <div class="col-sm" id = "snapDiv"></div>
+    <div class="col-sm" id = "snapDiv1"></div>
+    <div class="col-sm" id = "snapDiv2"></div>
+  </div>
     </div>
-    <div id = "snapDiv" style = "height: 300px; width:100px; border: 3px solid black"></div>
-    </div>
-    <div id = "snapDiv" style = "height: 300px; width:100px; border: 3px solid black"></div>
-    </div>
-    </form>
-    <!-- <div id = "tower" style = "height: 300px; width:100px; border: 3px solid black"></div>
-    </div>
-    <div id = "tower" style = "height: 300px; width:100px; border: 3px solid black"></div>
-    </div> -->
+  </form>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    
   <script src="./tower.js"></script>
 </body>
 </html>

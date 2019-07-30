@@ -1,6 +1,6 @@
 $(document).ready(function (){
-$('div').draggable({
-  snap: '#snapDiv',
+$('.drag-box').draggable({
+  snap: '#snapDiv,#snapDiv1,#snapDiv2',
   snapTolerance : 50,
   cancel : '#snapDiv'
 });
