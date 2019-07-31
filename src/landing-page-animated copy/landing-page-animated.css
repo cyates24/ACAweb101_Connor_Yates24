@@ -1,0 +1,468 @@
+#navbar {
+background-color: #6284FF;
+background-image: linear-gradient(180deg, #6284FF 0%, #FFFFFF 35%, #FF0000 98%);
+padding: 5px 20px 5px 20px;
+
+}
+
+
+#nb:hover {
+  animation-name: rubberBand;
+  color: red;
+  font-weight: bold;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  padding-left: 0.2vw !important;
+  padding-right: 0.2vw !important;
+  padding: 1vw !important;
+  font-size: 1.7vw !important;
+}
+  
+
+
+
+body {
+  margin: 0 auto;
+  font-size: 62.5%;
+  font-family: "Muli", "Helvetica Neue", "Arial", "sans-serif";
+  font-weight: 300;
+  color: #EDEDED;
+  
+}
+
+ /* HEADER  */
+ 
+ .header {
+   background: url("./Water.jpg") no-repeat fixed center;
+   height: 150px;
+   background-size: cover;
+   padding: 1em 1em;
+   text-align: center;
+   text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+   0px 8px 13px rgba(0,0,0,0.1),
+   0px 18px 23px rgba(0,0,0,0.1);
+   font-size: 2em;
+   justify-content: center center;
+   padding-top: 290px;
+   height: 800px;
+   background-attachment: fixed;
+   background-position: center;
+   vertical-align: middle;
+  }
+  .header h1{
+    animation-name: jackInTheBox;
+    animation-duration: 7s;
+    animation-timing-function: ease-out; 
+    vertical-align: middle;
+    color: black;
+    text-shadow: -40px 0px 30px #000000;
+
+  } 
+  .header p{
+    color: black;
+  }
+  
+  
+
+.profilepic {
+align-content: center;
+align-items: center;
+text-align: center;
+width: 100%;
+height: 100%;
+vertical-align: middle;
+}
+
+.profilepic img{
+  width: 150px;
+  height: 150px;
+  margin-top: -50px;
+  border-radius: 50%;
+  justify-content: center;
+  vertical-align: middle;
+ }
+ .clouds {
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+}
+
+.firstCloud {
+  position: absolute;
+  left: -150px;
+  top: 150px;
+  animation: move 10s linear 2s infinite;
+  width: 150px;
+}
+
+.secondCloud {
+  position: absolute;
+  left: -150px;
+  top: 200px;
+  animation: move 15s linear 0s infinite;
+  width: 150px;
+  }
+
+.thirdCloud {
+  top: 250px;
+  left: -150px;
+  position: absolute;
+  animation: move 20s linear 5s infinite;
+  width: 150px;
+}
+
+@keyframes move {
+  from {left: -150px;}
+  to {left: 100%;}
+}
+
+
+
+
+ 
+
+
+ section {
+  
+  max-width: 50em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+}
+section h2{
+  color: grey;
+}
+section p {
+  font-size: 2em;
+  line-height: 1.3em;
+  color: grey;
+}
+
+.space-maker {
+  margin-bottom: 3em;
+}
+
+.gradient {
+  padding: 10em;
+  background-color: #000000;
+  background-image: linear-gradient(180deg, #000000 0%, #495158 50%, #393535 100%);
+} 
+
+
+.tubevid {
+  position: relative;
+  padding-bottom: 56.25%; 
+  height: 0;
+  overflow: hidden;
+}
+.tubevid iframe {
+  position: absolute;  
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 70%;
+}
+ .vid {
+   position: relative;
+   padding-bottom: 56.25%; 
+   height: 0;
+   overflow: hidden;
+   margin-top: 50px;
+ }
+ .vid video {
+   position: absolute;  
+   top: 0;
+   left: 0;
+   width: 70%;
+   height: 70%;
+   
+ }
+                                     /* FORM */
+ form {
+margin-left:auto;
+margin-right:auto;
+width: 100%;
+justify-content: center;
+align-content: center;
+background-color: #000000;
+background-image: linear-gradient(180deg, #000000 0%, #495158 50%, #393535 100%);
+padding: 25px 15px 25px 10px;
+font: 12px Georgia, "Times New Roman", Times, serif;
+color: #888;
+text-shadow: 1px 1px 1px rgb(247, 6, 6);
+border:1px solid #fa0a0a;
+}
+td{
+  color: #FF0000;
+}
+
+  input {
+justify-content: center;
+align-content: center;
+border: 1px solid #DADADA;
+color: #888;
+height: 30px;
+margin-bottom: 16px;
+margin-right: 6px;
+margin-top: 2px;
+outline: 0 none;
+padding: 3px 3px 3px 5px;
+  } 
+  table{
+    justify-content: center;
+    align-content: center;
+  }
+.button {
+  background: green;
+  border: none;
+  padding: 10px 25px 10px 25px;
+  color: #FFF;
+  box-shadow: 1px 1px 5px #B6B6B6;
+  border-radius: 3px;
+  text-shadow: 1px 1px 1px rgb(66, 158, 63);
+  cursor: pointer;
+}
+.button:hover {
+  background: rgb(57, 226, 128)
+}
+.button2{
+  background: red; 
+  border: none;
+  padding: 10px 25px 10px 25px;
+  color: #FFF;
+  box-shadow: 1px 1px 5px #B6B6B6;
+  border-radius: 3px;
+  text-shadow: 1px 1px 1px #9E3F3F;
+  cursor: pointer;
+  width: 97%;
+}
+.button2:hover {
+  background: rgb(230, 73, 80)
+}
+
+
+
+                      /* MEDIA QUERIES */
+@media (max-width: 460px){
+  .header {
+    padding: 1em;
+  }
+  .gradient {
+    padding: 5em;
+  }
+  
+  .profilepic img{
+    width: 50%;
+    margin-top: 250px;
+    justify-content: center;
+    vertical-align: middle;
+  }
+
+  section p {
+    font-size: 1rem;
+  }
+  .form {
+ width: 100%;
+  }
+  section{
+    width: 100%;
+  }
+  .tubevid iframe{
+    width: 100%;
+
+  }
+}
+
+
+                         /* ANIMATIONS */
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  80% {
+    transform: translateX(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes change-background {
+  0% {
+    background: black;
+  }
+  50% {
+    background: rgba(211, 211, 211, 0.432);
+  }
+  100% {
+    background: rgba(128, 128, 128, 0.582);
+  }
+}
+@-webkit-keyframes jackInTheBox {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(0.1) rotate(30deg);
+    transform: scale(0.1) rotate(30deg);
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+  }
+
+  50% {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+
+  70% {
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3deg);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes jackInTheBox {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(0.1) rotate(30deg);
+    transform: scale(0.1) rotate(30deg);
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+  }
+
+  50% {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+
+  70% {
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3deg);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.jackInTheBox {
+  -webkit-animation-name: jackInTheBox;
+  animation-name: jackInTheBox;
+}
+
+@-webkit-keyframes rubberBand {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes rubberBand {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.rubberBand {
+  -webkit-animation-name: rubberBand;
+  animation-name: rubberBand;
+}
+@-webkit-keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.fadeOut {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+}
+
+
+
+
+
+
+
