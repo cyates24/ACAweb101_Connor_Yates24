@@ -1,0 +1,49 @@
+/* *body{
+  height: 100%;
+} */
+
+
+button {
+  padding: 20px;
+  text-shadow: 1px 1px 1px #202020;
+  font-family: "Lato", sans-serif;
+  font-size: 18pt;
+  border: 1px solid lightblue;
+  color: lightblue;
+  position: relative;
+  top: 500px;
+  text-align: center;
+  Left: 70px;
+}
+
+.main{
+  position: relative;
+  margin: 0 auto;
+  width: 300px;
+  height: 600px;
+}
+.wiz {
+  width: 300px;
+  position: absolute;
+  z-index: 1;
+}
+.blunt{
+  position: absolute;
+  width: 69px;
+  left:  225px;
+  top: 133.5px;
+  z-index: 2;
+}
+
+.redeye{
+  position: absolute;
+  background: red;
+  width: 80px;
+  height: 20px;
+  left: 100px;
+  top: 120px;
+  opacity: 0;
+}
+.winner{
+  display: none;
+}
